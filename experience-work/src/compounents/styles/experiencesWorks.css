@@ -1,0 +1,108 @@
+h1 {
+    margin: 20px 0 0 0;
+    padding: 5px;
+}
+.main-container {
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.bb {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.lists {
+    list-style: none;
+}
+
+.btns-companys {
+    display: flex;
+    flex-direction: column;
+    margin: 21px 20px 0 0;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-left: 2px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.744);
+}
+
+
+
+.icons {
+    color: #007b80;
+}
+
+.btns-companys:hover {
+    border-color: #007b80;
+    color: #007b80;
+}
+
+.btns-chiked {
+    display: flex;
+    flex-direction: column;
+    margin: 21px 20px 0 0;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-left: 2px solid #007b80;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.744);
+
+}
+
+.list-bloc {
+    margin-left: 42px;
+
+}
+
+.underLine {
+    border-bottom: 4px solid #007b80;
+    width: 70px;
+    margin: auto;
+
+}
+
+.name {
+    background-color: #007c8031;
+    width: fit-content;
+    padding: 2px 15px 2px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.751);
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.788);
+    letter-spacing: 3px;
+}
+
+.li-lists {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.flex {
+
+    display: flex;
+}
+
+.icons {
+    margin-top: 2px;
+}
